@@ -6,6 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 // static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+//static char *font = "Fira Code:style=Light:pixelsize=18:antialias=true:autohint=true";
 static char *font = "Fira Code:pixelsize=18:antialias=true:autohint=true";
 //static char *font = "JetBrains Mono:style=Thin:pixelsize=18:antialias=true:autohint=true";
 static int borderpx = 2;
@@ -144,6 +145,7 @@ static const char *colorname[] = {
 	"#555555", // 257
 	"#262626", // 258  // "black",
 	"gray90",  // 259
+	"#2e3440", // 260
 };
 
 
@@ -152,10 +154,15 @@ static const char *colorname[] = {
  * foreground, background, cursor, reverse cursor
  */
 
-unsigned int defaultcs  = 256;
-unsigned int defaultrcs = 257;
-unsigned int defaultfg  = 259;
-unsigned int defaultbg  = 258;
+unsigned int defaultcs   = 256;
+unsigned int defaultrcs  = 257;
+unsigned int defaultfg   = 259;
+unsigned int defaultbg   = 258;
+unsigned int selectionbg = 260;
+unsigned int selectionfg = 7;
+/* If 0 use selectionfg as foreground in order to have a uniform foreground-color */
+/* Else if 1 keep original foreground-color of each cell => more colors :) */
+static int ignoreselfg   = 1;
 
 /*
  * https://invisible-island.net/xterm/ctlseqs/ctlseqs.html#h4-Functions-using-CSI-_-ordered-by-the-final-character-lparen-s-rparen:CSI-Ps-SP-q.1D81
