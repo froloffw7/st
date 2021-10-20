@@ -54,7 +54,7 @@ II. Mine changes
 
 - Keyboard shortcuts
 - Home, End Insert, Delete, Backspace keys with different modifiers.
-- Focused non-focused alpha settings
+- Focused, non-focused alpha settings
 - Change Regular font to the Light version, Bold to the Regular
 - More CSI queries processing
 - Other small changes
