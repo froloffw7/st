@@ -28,6 +28,37 @@ the st terminfo entry with the following command:
 
 See the man page for additional details.
 
+Patches Applied
+---------------
+
+I. Official
+
+st-alpha-0.8.2.diff
+st-blinking_cursor-20200531-a2a7044.diff
+st-boxdraw_v2-0.8.3.diff
+st-csi_22_23-0.8.4.diff
+st-focus-20200731-43a395a.diff
+st-focus-20200731-patch_alpha.diff
+st-defaultfontsize-20210225-4ef0cbd.diff
+st-ligatures-alpha-scrollback-20200428-28ad288.diff
+st-osc_10_11_12_2-20210106-4ef0cbd.diff
+st-scrollback-0.8.4.diff
+st-scrollback-20210507-4536f46.diff
+st-scrollback-mouse-20191024-a2c479c.diff
+st-scrollback-mouse-altscreen-20200416-5703aa0.diff
+st-workingdir-20200317-51e19ea.diff
+
+Please check https://st.suckless.org/patches/ for more detailes.
+
+II. Mine changes
+
+- Keyboard shortcuts
+- Home, End Insert, Delete, Backspace keys with different modifiers.
+- Focused non-focused alpha settings
+- Change Regular font to the Light version, Bold to the Regular
+- More CSI queries processing
+- Other small changes
+
 Credits
 -------
 Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
