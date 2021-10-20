@@ -46,7 +46,10 @@ st-scrollback-0.8.4.diff
 st-scrollback-20210507-4536f46.diff
 st-scrollback-mouse-20191024-a2c479c.diff
 st-scrollback-mouse-altscreen-20200416-5703aa0.diff
+st-selectioncolors-0.8.4.diff
+st-selectionbg-alpha-0.8.2.diff
 st-workingdir-20200317-51e19ea.diff
+
 
 Please check https://st.suckless.org/patches/ for more detailes.
 
