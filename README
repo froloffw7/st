@@ -53,7 +53,7 @@ st-workingdir-20200317-51e19ea.diff
 
 Please check https://st.suckless.org/patches/ for more detailes.
 
-II. Mine changes
+II. Additional Changes
 
 - Keyboard shortcuts
 - Home, End Insert, Delete, Backspace keys with different modifiers.
