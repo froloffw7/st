@@ -59,7 +59,7 @@ II. Mine changes
 - Home, End Insert, Delete, Backspace keys with different modifiers.
 - Focused, non-focused alpha settings
 - Change Regular font to the Light version, Bold to the Regular
-- More CSI queries processing
+- Add OSC/CSI queries processing
 - Other small changes
 
 Credits
